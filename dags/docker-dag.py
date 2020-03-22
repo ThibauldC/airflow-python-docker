@@ -64,5 +64,4 @@ with DAG(
         dag=dag
     )
 
-
     kick_off_dag >> download >> preprocessing >> processing
