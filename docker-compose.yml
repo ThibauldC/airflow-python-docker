@@ -16,7 +16,7 @@ services:
       dockerfile: Dockerfile
       args:
         AIRFLOW_DEPS: gcp_api,s3
-        PYTHON_DEPS: sqlalchemy==1.2.0,docker
+        PYTHON_DEPS: sqlalchemy==1.2.0
     restart: always
     user: 0:0
     depends_on:
